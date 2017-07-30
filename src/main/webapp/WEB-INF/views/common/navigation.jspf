@@ -1,0 +1,18 @@
+<nav role="navigation" class="navbar navbar-default">
+	<div class="">
+		<a class="navbar-brand">Veterinary Clinic</a>
+	</div>
+	<div>
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="/">Home</a></li>
+			<li><a href="/list-todos">Patients</a></li>
+			<li><a href="/list-todos">Inventory</a></li>
+			<li><a href="/list-todos">Finances</a></li>
+			<li><a href="/list-todos">Administration</a></li>
+
+		</ul>
+		<ul class="nav navbar-right">
+			<li><a href="/logout"">Logout</a></li>
+		</ul>
+	</div>
+</nav>
