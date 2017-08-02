@@ -4,6 +4,8 @@ import java.util.Date;
 
 import javax.validation.constraints.Size;
 
+
+//TODO - remove this class completely from the project
 public class Todo {
 	private int id;
 	private String user;

@@ -32,6 +32,21 @@
 		class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
 		<property name="defaultLocale" value="en" />
 	</bean>
+	
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">  
+  		<property name="host" value="smtp.gmail.com" />  
+    	<property name="username" value="testdevpw@gmail.com" />  
+    	<property name="password" value="prababcia" />  
+    	<property name="javaMailProperties">  
+       	<props>  
+              <prop key="mail.smtp.auth">true</prop>  
+              <prop key="mail.smtp.socketFactory.port">465</prop>  
+              <prop key="mail.smtp.socketFactory.class">javax.net.ssl.SSLSocketFactory</prop>  
+              <prop key="mail.smtp.port">465</prop>  
+        </props>  
+    	</property>  
+	</bean>  
+	
 
 	<mvc:interceptors>
 		<bean id="localeChangeInterceptor"
@@ -40,7 +55,7 @@
 		</bean>
 	</mvc:interceptors>
 	
-	    <mvc:annotation-driven />
+    <mvc:annotation-driven />
 	    
 	    
 	

@@ -2,8 +2,21 @@
 <%@ include file="common/navigation.jspf" %>
 
 <div class = "container">
-	this is admin
 	
+<header>Select action:</header></br>
+	
+<table class="table table-striped">	
+	<tbody>	
+		<tr>
+			<td>Add new user</td>
+			<td><a href="/add-user" class = "btn btn-info">OK</a></td>
+		</tr>
+		<tr>
+			<td>Update user</td>
+			<td><a href="/update-user" class = "btn btn-info">OK</a></td>
+		</tr>
+	</tbody>
+</table>	
 	
 	
 </div>

@@ -27,6 +27,8 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 
 import com.vetClinic.exception.ExceptionController;
 
+
+//TODO - remove this class completely from the project
 @Controller 
 @SessionAttributes("name")
 public class TodoController {

@@ -3,6 +3,7 @@
 <%@ include file="common/navigation.jspf" %>
 
 
+<!-- TODO - remove this JSP completely from the project -->
 <div class="container">
 
 Hi ${name} <br/>

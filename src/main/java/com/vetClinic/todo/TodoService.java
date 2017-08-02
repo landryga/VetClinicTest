@@ -7,6 +7,8 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+
+//TODO - remove this class completely from the project
 @Service
 public class TodoService {
 	private static List<Todo> todos = new ArrayList<Todo>();

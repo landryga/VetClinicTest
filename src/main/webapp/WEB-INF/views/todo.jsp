@@ -1,4 +1,6 @@
 
+
+<!-- TODO - remove this JSP completely from the project -->
 <%@ include file="common/header.jspf" %>
 <%@ include file="common/navigation.jspf" %>
 
